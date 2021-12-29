@@ -18,9 +18,8 @@ Input arguments:
 
 TODO: 
     Add support for polynomial data
-    Allow tuning the parameters of noise
 '''
-def create_lin_reg_data(n=1, addNoise=True):
+def create_lin_reg_data(n=1, sigma = 2, addNoise=True):
     a = random.uniform(1,10)
     b = random.uniform(1,10)
 
@@ -28,7 +27,8 @@ def create_lin_reg_data(n=1, addNoise=True):
     y = list(map(lambda xs: a*xs + b, x))
 
     if(addNoise):
-        noise = np.random.normal(0,2,len(y))
+        noise = np.random.normal(0,sigma,len(y))
+        print(noise)
         y = y + noise
 
     return x,y,a,b
