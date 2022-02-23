@@ -42,5 +42,5 @@ def grad_binary_cross_entropy_loss(y_true, p, X):
     Outputs
         grad : total gradient over the training batch
     '''
-    grad = np.sum(X@(p - y_true))
+    grad = np.sum(X*(p - y_true).reshape(p.shape[0],1))
     return grad
