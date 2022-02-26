@@ -15,7 +15,7 @@ Opposed to its name, logistic regression is a supervised learning algorithm used
 ### Binary Classification
 
 <p align="center">
-<img src="logistic-regression/images/theory.jpg" alt="theory" width="200"/>
+<img src="logistic-regression/images/theory.jpg" alt="theory" width="400"/>
 </p>
 
 - [This]() file contains the implementation of a binary class logistic regression algorithm. 
@@ -25,8 +25,8 @@ Opposed to its name, logistic regression is a supervised learning algorithm used
 <br/>
 
 <p align="center">
-<img src="logistic-regression/images/lossfunc.png" alt="loss function" width="300"/>
-<img src="logistic-regression/images/discriminator.png" alt="discriminator" width="300"/>
+<img src="logistic-regression/images/lossfunc.png" alt="loss function" width="200"/>
+<img src="logistic-regression/images/discriminator.png" alt="discriminator" width="200"/>
 </p>
 <p align = "center">
 Left: Convergence of loss function value, Right: Discriminator learned from training data.
