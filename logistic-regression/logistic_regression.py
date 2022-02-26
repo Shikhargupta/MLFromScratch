@@ -3,6 +3,8 @@ Logistic Regression
 Consists of classes/methods for binary and multiclass logistic
 regression classification.
 '''
+import sys
+sys.path.append('../')
 import numpy as np
 import random
 from matplotlib import pyplot as plt

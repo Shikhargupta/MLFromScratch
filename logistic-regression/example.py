@@ -4,7 +4,6 @@ from logistic_regression import *
 from matplotlib import pyplot as plt
 from sklearn.preprocessing import StandardScaler
 
-################ Logistic Regression ########################
 random.seed(1)
 
 #Load data

@@ -1,6 +1,10 @@
 # MLFromScratch
 Implementation of widely used ML techniques from scratch
 
+## Contents
+- [Logistic Regression](#logistic-regression)
+    - [Binary Classification](#binary-classification)
+
 
 ## Logistic Regression
 
@@ -12,3 +16,4 @@ Opposed to its name, logistic regression is a supervised learning algorithm used
 - [This]() file contains the implementation of a binary class logistic regression algorithm. 
 - The algorithm uses binary cross-entropy loss function. The loss function and its gradient implementation can be found [here]().
 - Since it is a **non-linear formulation**, there is no closed form solution and descent methods are used to get to the loss function minimizer.
+
