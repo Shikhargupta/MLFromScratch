@@ -11,15 +11,16 @@ from matplotlib import pyplot as plt
 from cost_func import binary_cross_entropy_loss, grad_binary_cross_entropy_loss
 from misc_functions import sigmoid
 
-'''
-BinaryLogisticReg
-Class for binary logistic regression.
-Methods :
-    - init_w  : initialise weight vector
-    - fit     : fit the model on training data
-    - predict : predict labels for testing data
-'''
+
 class BinaryLogisticReg:
+    '''
+    BinaryLogisticReg
+    Class for binary logistic regression.
+    Methods :
+        - init_w  : initialise weight vector
+        - fit     : fit the model on training data
+        - predict : predict labels for testing data
+    '''
     def __init__(self):
         self.w = None
         random.seed(1)
