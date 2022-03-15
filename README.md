@@ -16,7 +16,7 @@ Opposed to its name, logistic regression is a supervised learning algorithm used
 ### Binary Classification
 
 <p align="center">
-<img src="logistic-regression/images/theory_logreg.jpg" alt="theory" width="400"/>
+<img src="logistic-regression/images/theory.jpg" alt="theory" width="400"/>
 </p>
 
 - [This](logistic-regression/logistic_regression.py) file contains the implementation of a binary class logistic regression algorithm. 
