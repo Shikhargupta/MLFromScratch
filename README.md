@@ -78,3 +78,12 @@ K-nearest neighbors algorithm predicts a lable/value by voting amongst the k clo
 - KNN vs QDA?
 - How does test and train error vary with increasing k?
 - What would be the training error for k=1?
+
+
+## Linear Regression
+
+_keywords : regression, supervised learning, parametric_
+
+Probably the most common regression technique out there. 
+
+- [This](linear-regression/LinearRegression.py) file implements the non-regularised solution to least squares using both gradient descent and closed form solution. 
