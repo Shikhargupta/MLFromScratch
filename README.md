@@ -5,6 +5,7 @@ Implementation of widely used ML techniques from scratch
 - [Logistic Regression](#logistic-regression)
     - [Binary Classification](#binary-classification)
 - [K-Nearest Neighbors](#k-nearest-neighbors)
+- [Bag of Words](#bag-of-words)
 
 
 ## Logistic Regression
@@ -87,3 +88,19 @@ _keywords : regression, supervised learning, parametric_
 Probably the most common regression technique out there. 
 
 - [This](linear-regression/LinearRegression.py) file implements the non-regularised solution to least squares using both gradient descent and closed form solution. 
+
+
+## Bag of Words
+
+_keywords : NLP, embeddings_
+
+Bag of Words is a type of text analysis technique used to look at the frequency of words used in a given text. It is commonly used in natural language processing (NLP) and data mining applications. The technique involves creating a histogram of all the words in a given text, disregarding the order and structure of the words. This is why it is called a Bag of Words.
+
+A simple implementation of BoW can be found [here](bag-of-words/bow.py)
+
+**Pros**
+- 
+
+**Cons**
+- As the corpus gets bigger, dimension of feature vector also increases. This eventually leads to the phenomenon of curse of dimensionality. 
+- 
