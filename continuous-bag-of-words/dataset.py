@@ -6,7 +6,7 @@ import torch
 class BrownCorpus(Dataset):
     def __init__(self, data):
         self.data = data
-        with open('/Users/shikhar/Desktop/personal/MLFromScratch/continuous-bag-of-words/words_dictionary.json') as f:
+        with open('/Users/shikhar/Desktop/Personal/Misc/MLFromScratch/continuous-bag-of-words/words_dictionary.json') as f:
             self.dict = json.load(f)
         self.size = len(self.dict)
 

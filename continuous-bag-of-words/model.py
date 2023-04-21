@@ -10,14 +10,14 @@ class Cbow(nn.Module):
         self.hidden_size = hidden_size
         self.output_size = input_size
 
-        self.input = nn.Linear(self.input_size, self.hidden_size)
+        self.input = nn.Linear(self.input_size, self.hidden_size, bias=True)
         self.activation = nn.ReLU()
-        self.hidden = nn.Linear(self.hidden_size, self.output_size)
+        self.hidden = nn.Linear(self.hidden_size, self.output_size, bias=True)
         self.output = nn.Softmax()
 
     def forward(self,x):
         x = self.input(x)
-        x = torch.mean(x, dim=0)
+        x = torch.mean(x, dim=1)
 
         x = self.activation(x)
         x = self.hidden(x)
