@@ -5,6 +5,7 @@ import pandas as pd
 import json
 from nltk.corpus import brown
 from data import PrepareDataset
+from dataset import BrownCorpus
 from torch.utils.data import DataLoader
 
 nltk.download('brown')
@@ -12,6 +13,7 @@ data = brown.sents()
 
 prep_data = PrepareDataset(data=data, window=2)
 train_dataset = prep_data.get_context_target_pairs()
+train_dataset = BrownCorpus(train_dataset)
 
 
 if torch.backends.mps.is_available():
